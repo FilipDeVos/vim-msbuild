@@ -6,4 +6,4 @@
 " Vimball:      http://www.vim.org/scripts/script.php?script_id=4422
 
 " Override the default file type setting.
-au BufNewFile,BufRead *.*proj,*.props,*.targets set ft=msbuild
+au BufNewFile,BufRead *.*proj,*.props,*.targets,*.*proj.user set ft=msbuild
